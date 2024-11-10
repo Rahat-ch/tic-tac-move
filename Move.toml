@@ -1,0 +1,16 @@
+[package]
+name = "tic_tac_toe"
+version = "1.0.0"
+authors = []
+
+[addresses]
+tic_tac_toe = "0x0eb6be0e57288a2e1a511906d929272589bfb3cb4aba309bf927752b1a623de2"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
